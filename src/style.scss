@@ -81,15 +81,14 @@ body {
 				background-color: $main-color;
 			}
 		}
-	}
-
-	.active-navbar-items {
-		transform: translateX(0%);
-	}
-	.active-burger {
-		z-index: 100;
-		.bar {
-			background-color: $pure-white;
+		.active-navbar-items {
+			transform: translateX(0%);
+		}
+		.active-burger {
+			z-index: 100;
+			.bar {
+				background-color: $pure-white;
+			}
 		}
 	}
 }
