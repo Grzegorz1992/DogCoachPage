@@ -27,10 +27,10 @@ body {
 		padding: 2rem;
 
 		.brand-title {
+			color: $main-color;
 			font-size: 3rem;
 			font-weight: bold;
 			letter-spacing: 1px;
-			color: $main-color;
 		}
 
 		.navbar-items {
@@ -42,10 +42,10 @@ body {
 			left: 0;
 			height: 100vh;
 			width: 100vw;
-			text-align: center;
 			font-size: 3rem;
 			font-weight: bold;
 			background-color: $main-color;
+			text-align: center;
 			transform: translateY(-100%);
 			transition: all 0.4s ease-in-out;
 			z-index: 100;
@@ -93,19 +93,17 @@ body {
 	}
 
 	.hero-box {
+		height: 60vh;
 		background-image: url("../public/images/hero-mobile.jpg");
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
-		height: 60vh;
-		z-index: 0;
 
 		.hero-shadow {
 			position: absolute;
 			width: 100%;
 			height: 60%;
-			background-color: rgba(0, 0, 0, 0.7);
-			z-index: 0;
+			background-color: rgba(0, 0, 0, 0.6);
 		}
 
 		.hero-text-box {
@@ -114,35 +112,30 @@ body {
 			position: absolute;
 			top: 40%;
 			left: 40%;
-			transform: translate(-50%, -50%);
 			padding: 2rem 10rem 12rem 2rem;
-			z-index: 0;
+			transform: translate(-50%, -50%);
 
 			.hero-title {
-				font-size: 4.5rem;
-				font-weight: bold;
 				color: $pure-white;
+				font-size: 4.2rem;
+				font-weight: bold;
 			}
 
 			.hero-text {
-				padding: 1rem;
-				font-size: 2.4rem;
+				padding: 1.8rem;
 				color: $pure-white;
+				font-size: 2.4rem;
 				font-family: "Amatic SC", sans-serif;
-				letter-spacing: 1px;
 				font-weight: bold;
+				letter-spacing: 1.6px;
 
 				.big-text {
-					color: $main-color; 
+					color: $main-color;
 					font-size: 3.4rem;
 					font-weight: bold;
 					text-transform: uppercase;
 				}
-
-				
 			}
 		}
-
-		
 	}
 }
