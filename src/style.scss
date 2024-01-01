@@ -139,3 +139,127 @@ body {
 		}
 	}
 }
+
+// HEADER MEDIA 
+@media only screen and (min-width: 1000px) {
+	.header {
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			padding: 2rem;
+	
+			.brand-title {
+				color: $main-color;
+				font-size: 3rem;
+				font-weight: bold;
+				letter-spacing: 1px;
+			}
+	
+			.navbar-items {
+				display: flex;
+				justify-content: space-around;
+				flex-direction: column;
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100vh;
+				width: 100vw;
+				font-size: 3rem;
+				font-weight: bold;
+				background-color: $main-color;
+				text-align: center;
+				transform: translateY(-100%);
+				transition: all 0.4s ease-in-out;
+				z-index: 100;
+	
+				.navbar-item {
+					list-style: none;
+					.link {
+						color: $pure-white;
+						outline-color: none;
+						text-decoration: none;
+						letter-spacing: 1.5px;
+					}
+				}
+			}
+	
+			.burger {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: flex-end;
+				position: relative;
+				height: 3.2rem;
+				width: 3.6rem;
+				background: none;
+				border: none;
+				transition: all 0.4s ease-in-out;
+				z-index: 1000;
+	
+				.bar {
+					width: 100%;
+					height: 0.5rem;
+					border-radius: 0.5rem;
+					background-color: $main-color;
+				}
+			}
+			.active-navbar-items {
+				transform: translateY(0%);
+			}
+			.active-burger {
+				z-index: 100;
+				.bar {
+					background-color: $pure-white;
+				}
+			}
+		}
+	
+		.hero-box {
+			height: 60vh;
+			background-image: url("../public/images/hero-mobile.jpg");
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+	
+			.hero-shadow {
+				position: absolute;
+				width: 100%;
+				height: 60%;
+				background-color: rgba(0, 0, 0, 0.6);
+			}
+	
+			.hero-text-box {
+				display: flex;
+				flex-direction: column;
+				position: absolute;
+				top: 40%;
+				left: 40%;
+				padding: 2rem 10rem 12rem 2rem;
+				transform: translate(-50%, -50%);
+	
+				.hero-title {
+					color: $pure-white;
+					font-size: 4.2rem;
+					font-weight: bold;
+				}
+	
+				.hero-text {
+					padding: 1.8rem;
+					color: $pure-white;
+					font-size: 2.4rem;
+					font-family: "Amatic SC", sans-serif;
+					font-weight: bold;
+					letter-spacing: 1.6px;
+	
+					.big-text {
+						color: $main-color;
+						font-size: 3.4rem;
+						font-weight: bold;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+
+}
