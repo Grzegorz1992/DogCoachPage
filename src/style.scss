@@ -31,6 +31,10 @@ body {
 			font-size: 3rem;
 			font-weight: bold;
 			letter-spacing: 1px;
+
+			.fa-paw {
+				color: $main-color;
+			}
 		}
 
 		.navbar-items {
@@ -111,8 +115,8 @@ body {
 			display: flex;
 			flex-direction: column;
 			position: absolute;
-			top: 40%;
-			left: 40%;
+			top: 45%;
+			left: 45%;
 			padding: 2rem 10rem 12rem 2rem;
 			transform: translate(-50%, -50%);
 
@@ -142,7 +146,7 @@ body {
 }
 
 // HEADER MEDIA
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
 	.header {
 		.navbar {
 			position: fixed;
