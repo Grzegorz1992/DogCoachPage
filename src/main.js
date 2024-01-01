@@ -1,4 +1,3 @@
-import './style.scss'
-import './burger'
+import "./style.scss";
 
-
+import "./js/burger"
