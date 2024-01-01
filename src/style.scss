@@ -44,7 +44,7 @@ body {
 			width: 100vw;
 			font-size: 3rem;
 			font-weight: bold;
-			background-color: $main-color;
+			background: $main-color;
 			text-align: center;
 			transform: translateY(-100%);
 			transition: all 0.4s ease-in-out;
@@ -141,21 +141,24 @@ body {
 	}
 }
 
-// HEADER MEDIA 
+// HEADER MEDIA
 @media only screen and (min-width: 1000px) {
 	.header {
 		.navbar {
 			display: flex;
 			justify-content: space-between;
+			position: fixed;
 			padding: 2rem;
-	
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+
 			.brand-title {
 				color: $main-color;
-				font-size: 5rem;
+				font-size: 4rem;
 				font-weight: bold;
 				letter-spacing: 1px;
 			}
-	
+
 			.navbar-items {
 				justify-content: space-between;
 				flex-direction: row;
@@ -166,9 +169,9 @@ body {
 				height: inherit;
 				width: max-content;
 				font-size: 3rem;
-				background-color: $pure-white;
+				background: none;
 				transform: translateY(0);
-	
+
 				.navbar-item {
 					.link {
 						color: $main-color;
@@ -176,31 +179,26 @@ body {
 					}
 				}
 			}
-	
+
 			.burger {
 				display: none;
-				
-				
 			}
-			
-			
-			
 		}
-	
+
 		.hero-box {
-			height: 60vh;
-			background-image: url("../public/images/hero-mobile.jpg");
+			height: 100vh;
+			background-image: url("../public/images/herodesktop.jpg");
 			background-size: cover;
 			background-position: center;
 			background-attachment: fixed;
-	
+
 			.hero-shadow {
 				position: absolute;
 				width: 100%;
-				height: 60%;
-				background-color: rgba(0, 0, 0, 0.6);
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.3);
 			}
-	
+
 			.hero-text-box {
 				display: flex;
 				flex-direction: column;
@@ -209,13 +207,13 @@ body {
 				left: 40%;
 				padding: 2rem 10rem 12rem 2rem;
 				transform: translate(-50%, -50%);
-	
+
 				.hero-title {
 					color: $pure-white;
 					font-size: 4.2rem;
 					font-weight: bold;
 				}
-	
+
 				.hero-text {
 					padding: 1.8rem;
 					color: $pure-white;
@@ -223,7 +221,7 @@ body {
 					font-family: "Amatic SC", sans-serif;
 					font-weight: bold;
 					letter-spacing: 1.6px;
-	
+
 					.big-text {
 						color: $main-color;
 						font-size: 3.4rem;
@@ -234,5 +232,4 @@ body {
 			}
 		}
 	}
-
 }
