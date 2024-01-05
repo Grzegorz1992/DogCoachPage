@@ -49,7 +49,12 @@ body {
 			width: 100vw;
 			font-size: 3rem;
 			font-weight: bold;
-			background: $main-color;
+			background: rgb(236, 127, 49);
+			background: linear-gradient(
+				56deg,
+				rgba(236, 127, 49, 1) 17%,
+				rgba(210, 105, 30, 1) 45%
+			);
 			text-align: center;
 			transform: translateY(-100%);
 			transition: all 0.4s ease-in-out;
