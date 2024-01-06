@@ -281,10 +281,15 @@ body {
 .about-us-section {
 	background: $main-gradient;
 	color: $pure-white;
+	
 
 	.about-us-title {
 		font-size: 3.8rem;
 		text-align: center;
 	}
-	
+
+	.title-underline {
+		font-size: 3rem;
+		text-align: center;
+	}
 }
