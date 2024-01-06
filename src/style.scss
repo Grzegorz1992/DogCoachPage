@@ -34,7 +34,7 @@ body {
 			letter-spacing: 1px;
 
 			.fa-paw {
-				color: $main-color;
+				color: $second-main-color;
 			}
 		}
 
@@ -281,15 +281,40 @@ body {
 .about-us-section {
 	background: $main-gradient;
 	color: $pure-white;
-	
 
 	.about-us-title {
+		padding: 1rem;
 		font-size: 3.8rem;
 		text-align: center;
 	}
 
 	.title-underline {
+		padding: 1rem;
 		font-size: 3rem;
 		text-align: center;
+	}
+
+	.about-us-list {
+		padding: 1rem;
+		list-style: none;
+
+		.coach-name {
+			padding: 1rem;
+			font-size: 3rem;
+			font-weight: bold;
+			font-family: "Amatic SC", sans-serif;
+		}
+
+		.coach-underline {
+			background-color: $second-main-color;
+			height: 2.4px;
+			width: 100px;
+		}
+
+		.coach-description {
+			padding: 1rem 1rem 2rem 2rem;
+			text-align: justify;
+			font-size: 1.2rem;
+		}
 	}
 }
