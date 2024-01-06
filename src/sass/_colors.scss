@@ -1,6 +1,10 @@
 $main-color: rgb(210, 105, 30);
 $main-color-transparent: rgba(210, 105, 30, 0.4);
 $pure-white: rgb(255, 255, 255);
-
-	
-
+$main-gradient: linear-gradient(
+	65deg,
+	rgb(236, 112, 24) 17%,
+	rgb(214, 104, 26) 45%,
+	rgb(202, 96, 21) 55%,
+    rgb(211, 88, 0) 70%
+);
