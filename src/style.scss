@@ -280,9 +280,10 @@ body {
 
 .about-us-section {
 	background: $pure-white;
-	color: $main-color;
+	color: $pure-white;
 
 	.about-us-title {
+		color: $main-color;
 		padding: 1rem;
 		font-size: 3.8rem;
 		font-weight: bold;
@@ -299,10 +300,12 @@ body {
 	.about-us-list {
 		padding: 1rem;
 		list-style: none;
+		background: $main-gradient;
+		
 
 		.coach-name {
 			padding: 1rem;
-			font-size: 3rem;
+			font-size: 3.4rem;
 			font-weight: bold;
 			font-family: "Amatic SC", sans-serif;
 		}
@@ -317,7 +320,7 @@ body {
 			padding: 1rem 1rem 2rem 2rem;
 			text-align: justify;
 			font-size: 1.2rem;
-			background-color: $main-gradient;
+		
 		}
 	}
 }
