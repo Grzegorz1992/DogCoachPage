@@ -279,16 +279,18 @@ body {
 // SECTION ABOUT US
 
 .about-us-section {
-	background: $main-gradient;
-	color: $pure-white;
+	background: $pure-white;
+	color: $main-color;
 
 	.about-us-title {
 		padding: 1rem;
 		font-size: 3.8rem;
+		font-weight: bold;
 		text-align: center;
 	}
 
 	.title-underline {
+		color: $second-main-color;
 		padding: 1rem;
 		font-size: 3rem;
 		text-align: center;
@@ -315,6 +317,7 @@ body {
 			padding: 1rem 1rem 2rem 2rem;
 			text-align: justify;
 			font-size: 1.2rem;
+			background-color: $main-gradient;
 		}
 	}
 }
