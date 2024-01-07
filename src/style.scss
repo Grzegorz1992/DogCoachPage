@@ -159,7 +159,7 @@ body {
 @media only screen and (min-width: 900px) {
 	.header {
 		.navbar {
-			position: fixed;
+			position: sticky;
 			padding: 2rem 6rem;
 			width: 100%;
 			background-color: rgba(255, 252, 252, 0.85);
@@ -327,6 +327,33 @@ body {
 			padding: 1rem 1rem 2rem 2rem;
 			text-align: justify;
 			font-size: 1.2rem;
+		}
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.about-us-section {
+		.about-us-title {
+			padding: 1rem;
+		}
+
+		.title-underline {
+			font-size: 4rem;
+		}
+
+		.about-us-list {
+			.coach-name {
+				font-size: 4rem;
+			}
+
+			.coach-underline {
+				height: 3.2px;
+				width: 140px;
+			}
+
+			.coach-description {
+				font-size: 2rem;
+			}
 		}
 	}
 }
