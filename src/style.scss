@@ -192,10 +192,12 @@ body {
 						padding: 2rem 0.5rem;
 						letter-spacing: 1px;
 						cursor: pointer;
+						transition: all 0.3s;
 					}
 
 					.link:hover {
-						background: $pure-white;
+						background: $second-main-color;
+						color: $pure-white;
 					}
 				}
 			}
