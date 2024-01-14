@@ -370,24 +370,41 @@ body {
 	.section-body {
 		position: relative;
 		.section-image {
-			
-				width: 100%;
-				height: 100%;
-			
+			width: 100%;
+			height: 100%;
+			border-radius: 6px;
 		}
 
 		.section-text {
 			position: absolute;
-			top: 70%;
+			top: 90%;
 			left: 30%;
 			transform: translate(-50%, -50%);
 			background: $pure-white;
-			padding: 4rem;
+			padding: 2rem;
+			border-top-right-radius: 6px;
 
 			.section-text-title {
-				color: $main-color;
-				font-size: 2.4rem;
+				color: $second-main-color;
+				padding: 0.5rem;
+				font-size: 3.2rem;
 				font-weight: bold;
+			}
+
+			.section-text-paragraph {
+				color: $main-color;
+				font-size: 1.8rem;
+				padding: 0.5rem;
+				font-weight: bold;
+			}
+
+			.section-text-link {
+				color: $second-main-color;
+				padding: 0.5rem;
+				font-size: 2rem;
+				font-weight: bold;
+				text-decoration: none;
+				text-decoration: underline;
 			}
 		}
 	}
