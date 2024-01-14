@@ -368,11 +368,21 @@ body {
 
 .blog-section {
 	.section-body {
+		position: relative;
 		.section-image {
-			img {
+			
 				width: 100%;
 				height: 100%;
-			}
+			
+		}
+
+		.section-text {
+			position: absolute;
+			top: 90%;
+			left: 30%;
+			transform: translate(-50%, -50%);
+			background: $pure-white;
+			padding: 6rem;
 		}
 	}
 }
