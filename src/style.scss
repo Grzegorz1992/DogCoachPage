@@ -446,4 +446,11 @@ body {
 .article-section {
 	background-color: $main-color-transparent;
 	color: $pure-white;
+
+	.article-body {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		
+	}
 }
