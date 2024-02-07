@@ -371,7 +371,6 @@ body {
 		position: relative;
 		.section-image {
 			width: 100%;
-			height: 100%;
 			border-radius: 6px;
 		}
 
@@ -405,6 +404,33 @@ body {
 				font-weight: bold;
 				text-decoration: none;
 				text-decoration: underline;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.blog-section {
+		.section-body {
+			.section-image {
+				position: relative;
+				left: 20%;
+				width: 80%;
+				border-radius: 6px;
+			}
+			.section-text {
+				display: flex;
+				flex-direction: column;
+				top: 80%;
+				padding: 10rem;
+
+				.section-text-title {
+					font-size: 5.2rem;
+				}
+
+				.section-text-paragraph {
+					font-size: 4.2rem;
+				}
 			}
 		}
 	}
