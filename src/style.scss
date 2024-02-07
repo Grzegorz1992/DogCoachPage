@@ -404,6 +404,11 @@ body {
 				font-weight: bold;
 				text-decoration: none;
 				text-decoration: underline;
+				transition: all 0.3s;
+
+				&:hover {
+					color: rgb(108, 183, 248);
+				}
 			}
 		}
 	}
