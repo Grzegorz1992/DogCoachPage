@@ -455,7 +455,9 @@ body {
 
 		.article-button {
 			border:none;
-			background: none;
+			background: $second-main-color;
+			color: $pure-white;
+			align-self: flex-end;
 		}
 		
 	}
